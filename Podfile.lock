@@ -1,0 +1,20 @@
+PODS:
+  - ASXMLParser (0.1.0)
+  - MJExtension (3.0.15.1)
+
+DEPENDENCIES:
+  - ASXMLParser
+  - MJExtension (~> 3.0.15.1)
+
+SPEC REPOS:
+  trunk:
+    - ASXMLParser
+    - MJExtension
+
+SPEC CHECKSUMS:
+  ASXMLParser: 792c0ba0eaf81d1bdf4a9c7cc04b81a66f16c016
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+
+PODFILE CHECKSUM: 7d2486aeb39e67e17029cdb3c040a90e1ae1e572
+
+COCOAPODS: 1.8.4
