@@ -1,20 +1,24 @@
 PODS:
   - ASXMLParser (0.1.0)
+  - HDCryptorTools (0.0.1)
   - MJExtension (3.0.15.1)
 
 DEPENDENCIES:
   - ASXMLParser
+  - HDCryptorTools
   - MJExtension (~> 3.0.15.1)
 
 SPEC REPOS:
   trunk:
     - ASXMLParser
+    - HDCryptorTools
     - MJExtension
 
 SPEC CHECKSUMS:
   ASXMLParser: 792c0ba0eaf81d1bdf4a9c7cc04b81a66f16c016
+  HDCryptorTools: 6b723616180d28baae2561c58ac37c9113af1f4f
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
 
-PODFILE CHECKSUM: 7d2486aeb39e67e17029cdb3c040a90e1ae1e572
+PODFILE CHECKSUM: f16945f2966cdcebc263bc3bd0f2b6aec2314777
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

@@ -17,7 +17,6 @@
 		98248BD723F93E6700E764B3 /* HDHotUpdateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 98248BD623F93E6700E764B3 /* HDHotUpdateInfo.m */; };
 		9862572E23F947E300087E81 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9862572B23F947E300087E81 /* JPEngine.m */; };
 		9862572F23F947E300087E81 /* README-CN.md in Resources */ = {isa = PBXBuildFile; fileRef = 9862572D23F947E300087E81 /* README-CN.md */; };
-		9862573623F9490200087E81 /* HDCryptorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9862573523F9490100087E81 /* HDCryptorTools.m */; };
 		9862573923F949B700087E81 /* HDHotUpdateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9862573823F949B700087E81 /* HDHotUpdateManger.m */; };
 		9862573D23F94AE200087E81 /* HDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9862573C23F94AE200087E81 /* HDTools.m */; };
 		9A9D807C4E0E00852768A2C0 /* libPods-JSPatchExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8186D15048A27D9B094BC7E /* libPods-JSPatchExample.a */; };
@@ -46,8 +45,6 @@
 		9862572B23F947E300087E81 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
 		9862572C23F947E300087E81 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
 		9862572D23F947E300087E81 /* README-CN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CN.md"; sourceTree = "<group>"; };
-		9862573423F9490100087E81 /* HDCryptorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDCryptorTools.h; sourceTree = "<group>"; };
-		9862573523F9490100087E81 /* HDCryptorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDCryptorTools.m; sourceTree = "<group>"; };
 		9862573723F949B700087E81 /* HDHotUpdateManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDHotUpdateManger.h; sourceTree = "<group>"; };
 		9862573823F949B700087E81 /* HDHotUpdateManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDHotUpdateManger.m; sourceTree = "<group>"; };
 		9862573B23F94AE200087E81 /* HDTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTools.h; sourceTree = "<group>"; };
@@ -72,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				9862573A23F94AC100087E81 /* Tools */,
-				9862573023F9489000087E81 /* CryptorTools */,
 				98248BD123F93C5400E764B3 /* HDJSPatch */,
 				98248B9B23F93B6B00E764B3 /* JSPatchExample */,
 				98248BB723F93B6D00E764B3 /* JSPatchExampleTests */,
@@ -148,15 +144,6 @@
 			);
 			path = JSPatch;
 			sourceTree = "<group>";
-		};
-		9862573023F9489000087E81 /* CryptorTools */ = {
-			isa = PBXGroup;
-			children = (
-				9862573423F9490100087E81 /* HDCryptorTools.h */,
-				9862573523F9490100087E81 /* HDCryptorTools.m */,
-			);
-			path = CryptorTools;
-			sourceTree = SOURCE_ROOT;
 		};
 		9862573A23F94AC100087E81 /* Tools */ = {
 			isa = PBXGroup;
@@ -287,7 +274,6 @@
 				98248B9E23F93B6B00E764B3 /* AppDelegate.m in Sources */,
 				9862573D23F94AE200087E81 /* HDTools.m in Sources */,
 				9862572E23F947E300087E81 /* JPEngine.m in Sources */,
-				9862573623F9490200087E81 /* HDCryptorTools.m in Sources */,
 				98248BAF23F93B6D00E764B3 /* main.m in Sources */,
 				98248BD423F93C9D00E764B3 /* HDLoad.m in Sources */,
 			);

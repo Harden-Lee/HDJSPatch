@@ -89,7 +89,7 @@ NSString* const KHotJSversion = @"hotJSversion";
 - (BOOL)checkFileMD5:(NSString *)md5 {
     HDCryptorTools * tools = [[HDCryptorTools alloc] init];
     NSString *privatePath = [[NSBundle mainBundle] pathForResource:@"p.p12" ofType:nil];
-    [tools loadPrivateKey:privatePath password:@"intech_AG"];
+    [tools loadPrivateKey:privatePath password:@"文件密码"];
     // 4. 使用私钥解密
     NSString *fileMD5 = [tools RSADecryptString:_updateInfo.JSRSAMD5];
     if ([md5 isEqualToString:fileMD5]) {
